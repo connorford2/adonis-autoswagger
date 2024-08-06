@@ -586,6 +586,7 @@ export class ModelParser {
         if (en !== "") {
           enums = en.split(",");
           example = enums[0];
+          type = 'string';
         }
       }
 
